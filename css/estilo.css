@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+.texto-cinza{
+    color: #4e4e4e;
+}
+#header-area {
+    background-color: #f7b748;
+    height: 130px;
+}
+
+#header {
+    /* border: 1px solid red; */
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 65px;
+}
+
+#header h1 {
+    font-size: 3em;
+    color: #fff;
+}
+
+#header-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 5px 10px;
+}
+
+#header-menu a:hover {
+    background-color: #fff;
+    color: #f7b748;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 5px 10px;
+}
+
+#container{
+    width: 1000px;
+    margin: 0 auto;
+}
