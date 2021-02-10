@@ -160,3 +160,15 @@ a:hover.noticia-link {
 #categorias a:hover {
     text-decoration: underline;
 }
+
+#footer {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #cccccc;
+    padding: 20px;
+}
+
+#footer>h2 {
+    font-size: 1.2em;
+}
