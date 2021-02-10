@@ -6,16 +6,94 @@
     box-sizing: border-box;
 }
 
-.texto-cinza{
+body {
+    background-color: #e6e6e6;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+.texto-cinza {
     color: #4e4e4e;
 }
+
+.noticia {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.recentes-titulo,
+.categorias-titulo {
+    background-color: #cccccc;
+    color: #4e4e4e;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.recentes-texto {
+    font-size: 0.8em;
+    padding: 0 5px;
+}
+
+.recentes-linha {
+    border-top: 1px dotted #4e4e4e;
+    margin: 5px 0;
+}
+
+a.recentes-link {
+    font-size: 0.8em;
+    padding: 5px;
+    text-decoration: none;
+    color: #f7b748;
+}
+
+a:hover.recentes-link {
+    text-decoration: underline;
+}
+
+h2.noticia-titulo {
+    color: #f7b748;
+    font-size: 1.5em;
+}
+
+span.noticia-data {
+    font-size: 0.8em;
+}
+
+img.noticia-img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p.noticia-texto {
+    font-size: 0.9em;
+    text-align: justify;
+}
+
+a.noticia-link {
+    text-decoration: none;
+    color: #f7b748;
+    font-size: 0.9em;
+}
+
+a:hover.noticia-link {
+    text-decoration: underline;
+}
+
 #header-area {
     background-color: #f7b748;
     height: 130px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 #header {
-    /* border: 1px solid red; */
     width: 1000px;
     text-align: center;
     margin: 0 auto;
@@ -42,7 +120,43 @@
     padding: 5px 10px;
 }
 
-#container{
+#principal {
+    margin-top: 130px;
+}
+
+#container {
     width: 1000px;
     margin: 0 auto;
+}
+
+#noticias {
+    width: 630px;
+    float: left;
+}
+
+#menu-lateral {
+    width: 350px;
+    float: right;
+    margin-top: 20px;
+}
+
+#recentes {
+    background-color: #fff;
+    padding: 20px;
+}
+
+#categorias {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#categorias a {
+    color: #f7b748;
+    text-decoration: none;
+    padding: 5px 0px;
+}
+
+#categorias a:hover {
+    text-decoration: underline;
 }
